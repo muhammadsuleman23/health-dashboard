@@ -2,7 +2,7 @@
 
 A lightweight, real-time system monitoring dashboard for Linux, built with Python, Flask, and Chart.js.
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/Dashboard.png)
 
 ## Features
 - Live CPU, RAM, and disk usage with color-coded thresholds
