@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px; font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+header h1 { margin: 0 0 4px; }
+header p { margin: 0 0 20px; color: #94a3b8; font-size: 14px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 16px; }
+.charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; margin-bottom: 16px; }
+.card { background: #1e293b; border-radius: 12px; padding: 16px; }
+.card h3 { margin: 0 0 8px; color: #94a3b8; font-size: 14px; font-weight: 500; }
+.big { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.bar { height: 8px; background: #334155; border-radius: 4px; overflow: hidden; margin-bottom: 8px; }
+.bar div { height: 100%; width: 0; background: #22c55e; transition: width .5s, background .5s; }
+small { color: #94a3b8; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #334155; font-size: 14px; }
+th { color: #94a3b8; }
